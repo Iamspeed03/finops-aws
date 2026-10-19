@@ -42,23 +42,37 @@ finops-frontend/
 │   └── iam-policies/          # JSON security policies for least-privilege roles
 ├── public/                    # Static assets
 └── package.json               # Node dependencies
+```
 
-🚀 Local Development Setup
-Clone the repository:
-Bash
+## 🚀 Local Development Setup
+
+1. **Clone the repository:**
+```bash
 git clone [https://github.com/YOUR_USERNAME/finops-frontend.git](https://github.com/YOUR_USERNAME/finops-frontend.git)
 cd finops-frontend
-Install dependencies:
-Bash
+```
+
+2. **Install dependencies:**
+```bash
 npm install
-Configure Environment Variables:
-Create a .env.local file in the root directory and add your read-only IAM credentials:
-Code snippet
+```
+
+3. **Configure Environment Variables:**
+Create a `.env.local` file in the root directory and add your read-only IAM credentials:
+```env
 AWS_REGION=your-aws-region
 AWS_ACCESS_KEY_ID=your_access_key_id
 AWS_SECRET_ACCESS_KEY=your_secret_access_key
 S3_BUCKET_NAME=your-s3-bucket-name
-Run the development server:
-Bash
+```
+
+4. **Run the development server:**
+```bash
 npm run dev
-Open http://localhost:3000 with your browser to see the live dashboard.
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the live dashboard.
+
+## 👥 Team & Roles
+* **Speaker 1:** System Architecture & Serverless Orchestration 
+* **Speaker 2:** Security Posture & Compliance Logic 
+* **Speaker 3:** Full-Stack Integration & Executive Dashboard
